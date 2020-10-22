@@ -12,8 +12,8 @@ spring:
       server:
         git:
           uri: https://github.com/austine-namgung/config-server.git
-          username: austine-namgung
-          password: osc1234!
+          username: test
+          password: test
           # clone-on-start: true
   security:
     user:
