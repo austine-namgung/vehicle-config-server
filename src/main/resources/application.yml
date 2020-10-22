@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: config-server
+    name: vehicle-config-server
 
   cloud:
     config:
@@ -14,7 +14,7 @@ spring:
           uri: https://github.com/austine-namgung/config-server.git
           username: austine-namgung
           password: osc1234!
-          clone-on-start: true
+          # clone-on-start: true
   security:
     user:
       name: root
